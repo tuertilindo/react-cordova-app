@@ -1,0 +1,11 @@
+@import "../node_modules/react-mc-controls/sass/_mx-media";
+@import "../node_modules/react-mc-controls/sass/_mx-relieve";
+@import "_custom-colors";
+@import "../node_modules/react-mc-controls/sass/allcontrols";
+@import "_mui-menu";
+@import "../node_modules/slick-carousel/slick/slick.scss";
+body {
+  overflow-x: hidden;
+  color:$mui-primary-color-dark;
+
+}

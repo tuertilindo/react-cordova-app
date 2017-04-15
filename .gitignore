@@ -1,3 +1,9 @@
+/platforms/
+/www/css/main.min.css
+/www/bundle.js
+/plugins/*
+!/plugins/fetch.json
+!/plugins/android.json
 # Logs
 logs
 *.log

@@ -1,0 +1,14 @@
+@import "../node_modules/muicss/lib/sass/mui/_colors";
+
+// customize MUI variables
+$mui-primary-color:       mui-color('indigo', '500');
+$mui-primary-color-dark:  mui-color('indigo', '700');
+$mui-primary-color-light: mui-color('indigo', '50');
+
+$mui-accent-color:        mui-color('indigo', 'A200');
+$mui-accent-color-dark:   mui-color('indigo', 'A100');
+$mui-accent-color-light:  mui-color('indigo', 'A400');
+
+$fore-color: mui-color('indigo', '700');
+// import MUI SASS;
+@import "../node_modules/muicss/lib/sass/mui"

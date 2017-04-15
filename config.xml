@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mascocitas.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Mascocitas</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <splash src="www/images/splash.png" />
+        <icon density="ldpi" src="www/images/logo-ldpi.png" />
+        <icon density="mdpi" src="www/images/logo-mdpi.png" />
+        <icon density="hdpi" src="www/images/logo-hdpi.png" />
+        <icon density="xhdpi" src="www/images/logo-xhdpi.png" />
+        <icon density="xxhdpi" src="www/images/logo-xxhdpi.png" />
+        <icon density="xxxhdpi" src="www/images/logo-xxxhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-googleplus" spec="https://github.com/EddyVerbruggen/cordova-plugin-googleplus">
+        <variable name="REVERSED_CLIENT_ID" value="856302013961-o3u4tq6do6vkv7g4nh17k68ig43qf5ld.apps.googleusercontent.com" />
+    </plugin>
+</widget>
